@@ -1,0 +1,36 @@
+@import "styles/CenterItemsContainer";
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  .formItem {
+    border: 1px solid grey;
+    border-radius: 7px;
+  }
+
+  .formInput {
+    outline: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 14pt;
+  }
+
+  .formButton {
+    height: 45px;
+    font-size: 15pt;
+
+    &:focus {
+      outline: none !important;
+    }
+  }
+
+  .errorMessage {
+    color: red;
+    font-size: 14pt;
+  }
+}
