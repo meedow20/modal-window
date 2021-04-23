@@ -1,6 +1,6 @@
 # Modal Window
 
-## Instructions
+## Instruction
 
 - Clone the repo
 - Run **`npm install`**
